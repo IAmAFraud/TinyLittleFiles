@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Users\stb6897\Desktop\Classes\IGME320\Project3\igme-320-project3\IGME 320 Project 3\IGME 320 Project 3_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\stb6897\Desktop\Classes\IGME320\Project3\igme-320-project3\IGME 320 Project 3\IGME 320 Project 3_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\stb6897\Desktop\Classes\IGME320\Project3\igme-320-project3\IGME 320 Project 3\IGME 320 Project 3_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\stb6897\Desktop\Classes\IGME320\Project3\igme-320-project3\IGME 320 Project 3\IGME 320 Project 3_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="221232726" Language="SFX" Hash="3446098898">
+			<ObjectPath>\SoundBanks\Default Work Unit\Lose</ObjectPath>
+			<ShortName>Lose</ShortName>
+			<Path>Lose.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3052813266" Name="DresdenDeath" ObjectPath="\Events\Default Work Unit\Game\Dresden\DresdenDeath" DurationType="OneShot" DurationMin="1.378005" DurationMax="1.378005">
+					<IncludedMemoryFiles>
+						<File Id="942751586" Language="SFX">
+							<ShortName>ahhhhhh.wav</ShortName>
+							<Path>SFX\ahhhhhh_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="221232726" Name="Lose" ObjectPath="\Events\Default Work Unit\Game\Lose" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="619817101" Language="SFX">
+							<ShortName>Lose_Music.wav</ShortName>
+							<Path>SFX\Lose_Music_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="584226713" Language="SFX" Hash="4234457476">
+			<ObjectPath>\SoundBanks\Default Work Unit\MainMenuBank</ObjectPath>
+			<ShortName>MainMenuBank</ShortName>
+			<Path>MainMenuBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3604647259" Name="MainMenu" ObjectPath="\Events\Default Work Unit\MainMenu\MainMenu" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="427640364" Language="SFX">
+							<ShortName>MainMenuIntro.wav</ShortName>
+							<Path>SFX\MainMenuIntro_D79FB2B7.wem</Path>
+						</File>
+						<File Id="517151798" Language="SFX">
+							<ShortName>MainMenuLoop.wav</ShortName>
+							<Path>SFX\MainMenuLoop_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="979765101" Language="SFX" Hash="2052672498">
+			<ObjectPath>\SoundBanks\Default Work Unit\Win</ObjectPath>
+			<ShortName>Win</ShortName>
+			<Path>Win.bnk</Path>
+			<IncludedEvents>
+				<Event Id="435893022" Name="DresdenWin" ObjectPath="\Events\Default Work Unit\Game\Dresden\DresdenWin" DurationType="OneShot" DurationMin="3.024075" DurationMax="3.024075">
+					<IncludedMemoryFiles>
+						<File Id="688220679" Language="SFX">
+							<ShortName>victor.wav</ShortName>
+							<Path>SFX\victor_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="979765101" Name="Win" ObjectPath="\Events\Default Work Unit\Game\Win" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="1022373362" Language="SFX">
+							<ShortName>Win_Music.wav</ShortName>
+							<Path>SFX\Win_Music_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="2754342975">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3410529917" Language="SFX" Hash="3959812118">
+			<ObjectPath>\SoundBanks\Default Work Unit\GameBank</ObjectPath>
+			<ShortName>GameBank</ShortName>
+			<Path>GameBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1165913927" Name="AmmoPickup" ObjectPath="\Events\Default Work Unit\Game\Weapons\AmmoPickup" DurationType="OneShot" DurationMin="0.843764" DurationMax="0.843764">
+					<IncludedMemoryFiles>
+						<File Id="668159714" Language="SFX">
+							<ShortName>bulletDrop.wav</ShortName>
+							<Path>SFX\bulletDrop_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2764240573" Name="Combat" ObjectPath="\Events\Default Work Unit\Game\Combat" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="558858737" Language="SFX">
+							<ShortName>CombatMusic.wav</ShortName>
+							<Path>SFX\CombatMusic_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="574204083" Name="DresdenHit" ObjectPath="\Events\Default Work Unit\Game\Dresden\DresdenHit" DurationType="OneShot" DurationMin="0.565351" DurationMax="0.565351">
+					<IncludedMemoryFiles>
+						<File Id="1062225523" Language="SFX">
+							<ShortName>grunt.wav</ShortName>
+							<Path>SFX\grunt_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1338368968" Name="DresdenStart" ObjectPath="\Events\Default Work Unit\Game\Dresden\DresdenStart" DurationType="OneShot" DurationMin="2.709333" DurationMax="2.709333">
+					<IncludedMemoryFiles>
+						<File Id="442937000" Language="SFX">
+							<ShortName>staffThroat.wav</ShortName>
+							<Path>SFX\staffThroat_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3841200954" Name="Fireball" ObjectPath="\Events\Default Work Unit\Game\Weapons\Fireball" DurationType="OneShot" DurationMin="0.876281" DurationMax="0.876281">
+					<IncludedMemoryFiles>
+						<File Id="697099068" Language="SFX">
+							<ShortName>Fireball.wav</ShortName>
+							<Path>SFX\Fireball_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2506038849" Name="Fuego" ObjectPath="\Events\Default Work Unit\Game\Dresden\Fuego" DurationType="OneShot" DurationMin="1.024671" DurationMax="1.024671">
+					<IncludedMemoryFiles>
+						<File Id="269790986" Language="SFX">
+							<ShortName>fuego.wav</ShortName>
+							<Path>SFX\fuego_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1287408361" Name="Gunshot" ObjectPath="\Events\Default Work Unit\Game\Weapons\Gunshot" DurationType="OneShot" DurationMin="1.000000" DurationMax="1.000000">
+					<IncludedMemoryFiles>
+						<File Id="756262393" Language="SFX">
+							<ShortName>Gunshot.wav</ShortName>
+							<Path>SFX\Gunshot_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2575967891" Name="RevolverReload" ObjectPath="\Events\Default Work Unit\Game\Weapons\RevolverReload" DurationType="OneShot" DurationMin="0.713809" DurationMax="0.713809">
+					<IncludedMemoryFiles>
+						<File Id="77452930" Language="SFX">
+							<ShortName>RevolverReload.wav</ShortName>
+							<Path>SFX\RevolverReload_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

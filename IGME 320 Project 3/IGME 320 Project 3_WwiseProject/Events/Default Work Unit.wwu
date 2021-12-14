@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{32C779B0-C702-4DEA-951B-90677CD57A12}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{32C779B0-C702-4DEA-951B-90677CD57A12}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="MainMenu" ID="{EA18DEA9-7A05-4884-84D9-F9AC7DB57318}" ShortID="405466285">
+					<ChildrenList>
+						<Event Name="MainMenu" ID="{6BE973D4-B9F8-40A0-91C7-2A436769A844}">
+							<ChildrenList>
+								<Action Name="" ID="{CFDE562F-1D08-41FE-9A60-12EC6FADC064}" ShortID="1476359">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MainMenuContainer" ID="{B2A0CAE6-7586-42C7-8BF9-0E97AC1BF15E}" WorkUnitID="{87D16D90-7A23-4460-B512-4FFC4FECDFF1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Game" ID="{35F47CC9-5DDB-4FFE-B0C9-A8CCE1B19EA1}" ShortID="782314589">
+					<ChildrenList>
+						<Event Name="Combat" ID="{20559A49-573B-4268-A60A-BB9682BF8C97}">
+							<ChildrenList>
+								<Action Name="" ID="{C50CA3C9-572C-4E61-B92D-F156BD479114}" ShortID="734476165">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CombatLoopContainer" ID="{C535237B-B744-4883-B806-CB50EC75FE86}" WorkUnitID="{87D16D90-7A23-4460-B512-4FFC4FECDFF1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Lose" ID="{53AE3E7C-D7A2-4EBC-B5E7-D58FFC5676A9}">
+							<ChildrenList>
+								<Action Name="" ID="{F6AD1BE6-82E3-4AB2-8193-C96C328B56E8}" ShortID="957413337">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="LoseGameContainer" ID="{E4416868-2A4F-4E70-967C-4CDA8D7D2A1F}" WorkUnitID="{87D16D90-7A23-4460-B512-4FFC4FECDFF1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Win" ID="{3AD89B6C-0E8F-4681-B280-F59D57A8B769}">
+							<ChildrenList>
+								<Action Name="" ID="{590BAAE2-E39B-4384-B5F9-AD3A24D40C2F}" ShortID="566025143">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="WinGameContainer" ID="{86C290D0-54F4-4F53-9E1D-A3643F9D373A}" WorkUnitID="{87D16D90-7A23-4460-B512-4FFC4FECDFF1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Folder Name="Dresden" ID="{42804F48-30DC-4C21-88D4-4E168F8B6CA9}" ShortID="848558627">
+							<ChildrenList>
+								<Event Name="DresdenWin" ID="{082B6DAB-F8E1-47A8-B4F2-ED7B8E0FA46B}">
+									<ChildrenList>
+										<Action Name="" ID="{165E6738-F558-4EE3-B871-755DA70AF845}" ShortID="214327283">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="DresdenWin" ID="{0DCF8BD1-4825-4115-916D-700A72DF7510}" WorkUnitID="{87D16D90-7A23-4460-B512-4FFC4FECDFF1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="DresdenDeath" ID="{25B406FD-C596-4B5D-8839-D768AC03EC15}">
+									<ChildrenList>
+										<Action Name="" ID="{D9E57B02-BBFE-413F-ADBA-0850E57D12E9}" ShortID="42966597">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="DresdenDeath" ID="{24ADA994-9220-4A91-BC96-363DA6C8233D}" WorkUnitID="{87D16D90-7A23-4460-B512-4FFC4FECDFF1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="DresdenHit" ID="{6667E910-8076-4AEE-9C94-C72BFA2ACBCF}">
+									<ChildrenList>
+										<Action Name="" ID="{F79C27B0-5A43-47AA-9356-7DEB73AAF8D0}" ShortID="568458847">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="DresdenHit" ID="{37DCAE4F-E5FD-4283-89F6-52E29C61FCFD}" WorkUnitID="{87D16D90-7A23-4460-B512-4FFC4FECDFF1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="DresdenStart" ID="{ABAF1C40-A85F-403C-A3C9-80F69ECF89FE}">
+									<ChildrenList>
+										<Action Name="" ID="{16CCA22D-6CCB-479D-B00E-452EBEE51EB5}" ShortID="480119362">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="DresdenStart" ID="{7B282F59-3A6B-43EA-AE28-5B1FEA53026F}" WorkUnitID="{87D16D90-7A23-4460-B512-4FFC4FECDFF1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Fuego" ID="{246E9A04-7C15-48C6-B887-342E991A2837}">
+									<ChildrenList>
+										<Action Name="" ID="{DEA7CC0A-21D5-4B7A-8DBB-89ABEAAFD6F8}" ShortID="410030862">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Fuego" ID="{8C350F9D-21BE-4034-98C4-3091474B06CA}" WorkUnitID="{87D16D90-7A23-4460-B512-4FFC4FECDFF1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Weapons" ID="{950A6EE9-61C0-4A33-B2E6-31AAA09E0A87}" ShortID="963986109">
+							<ChildrenList>
+								<Event Name="AmmoPickup" ID="{64A85736-A0E2-49CA-8EB7-DBBCD1C555A9}">
+									<ChildrenList>
+										<Action Name="" ID="{2F6E3DC3-EA7A-44F7-88F6-A397F25DF046}" ShortID="754962082">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="AmmoPickup" ID="{9A89D63F-DAD9-4786-97C9-9BE5C1E2C705}" WorkUnitID="{87D16D90-7A23-4460-B512-4FFC4FECDFF1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Fireball" ID="{948D14FF-97FF-4D6D-BBDF-4A201701AD2B}">
+									<ChildrenList>
+										<Action Name="" ID="{2604BED9-F5D7-4E1E-9AA6-CEDAFC1DD0FC}" ShortID="1009933194">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Fireball" ID="{B64680FE-4A29-4191-87C2-197DFD86A43A}" WorkUnitID="{87D16D90-7A23-4460-B512-4FFC4FECDFF1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Gunshot" ID="{843F9D72-37A2-49EC-9CC9-CFD5B1C1580A}">
+									<ChildrenList>
+										<Action Name="" ID="{3EE09E28-E944-46D4-AA2C-EDD3D91D7AAB}" ShortID="232726332">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Gunshot" ID="{CDB04D44-0D5F-48D8-92BD-C7B4FFBB7FDE}" WorkUnitID="{87D16D90-7A23-4460-B512-4FFC4FECDFF1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="RevolverReload" ID="{F0E3616F-1697-4747-B4F3-0AA469DD2C5C}">
+									<ChildrenList>
+										<Action Name="" ID="{939C5E69-0577-4E33-9142-3F8193DB8773}" ShortID="895623067">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="RevolverReload" ID="{2BF30753-A9C0-439A-95BB-87DA21FA1A43}" WorkUnitID="{87D16D90-7A23-4460-B512-4FFC4FECDFF1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

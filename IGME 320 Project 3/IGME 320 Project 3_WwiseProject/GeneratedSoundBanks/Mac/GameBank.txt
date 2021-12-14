@@ -1,0 +1,20 @@
+Event	ID	Name			Wwise Object Path	Notes
+	574204083	DresdenHit			\Default Work Unit\Game\Dresden\DresdenHit	
+	1165913927	AmmoPickup			\Default Work Unit\Game\Weapons\AmmoPickup	
+	1287408361	Gunshot			\Default Work Unit\Game\Weapons\Gunshot	
+	1338368968	DresdenStart			\Default Work Unit\Game\Dresden\DresdenStart	
+	2506038849	Fuego			\Default Work Unit\Game\Dresden\Fuego	
+	2575967891	RevolverReload			\Default Work Unit\Game\Weapons\RevolverReload	
+	2764240573	Combat			\Default Work Unit\Game\Combat	
+	3841200954	Fireball			\Default Work Unit\Game\Weapons\Fireball	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	77452930	RevolverReload	C:\Users\stb6897\Desktop\Classes\IGME320\Project3\igme-320-project3\IGME 320 Project 3\IGME 320 Project 3_WwiseProject\.cache\Mac\SFX\RevolverReload_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\GameSounds\GunSounds\RevolverReload\RevolverReload		125980
+	269790986	fuego	C:\Users\stb6897\Desktop\Classes\IGME320\Project3\igme-320-project3\IGME 320 Project 3\IGME 320 Project 3_WwiseProject\.cache\Mac\SFX\fuego_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\GameSounds\DresdenVoice\Fuego\fuego		180816
+	442937000	staffThroat	C:\Users\stb6897\Desktop\Classes\IGME320\Project3\igme-320-project3\IGME 320 Project 3\IGME 320 Project 3_WwiseProject\.cache\Mac\SFX\staffThroat_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\GameSounds\DresdenVoice\DresdenStart\staffThroat		704576
+	558858737	CombatMusic	C:\Users\stb6897\Desktop\Classes\IGME320\Project3\igme-320-project3\IGME 320 Project 3\IGME 320 Project 3_WwiseProject\.cache\Mac\SFX\CombatMusic_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\GameSounds\CombatLoopContainer\CombatLoopSegment\CombatMusic		9408056
+	668159714	bulletDrop	C:\Users\stb6897\Desktop\Classes\IGME320\Project3\igme-320-project3\IGME 320 Project 3\IGME 320 Project 3_WwiseProject\.cache\Mac\SFX\bulletDrop_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\GameSounds\GunSounds\AmmoPickup\bulletDrop		148904
+	697099068	Fireball	C:\Users\stb6897\Desktop\Classes\IGME320\Project3\igme-320-project3\IGME 320 Project 3\IGME 320 Project 3_WwiseProject\.cache\Mac\SFX\Fireball_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\GameSounds\GunSounds\Fireball\Fireball		38708
+	756262393	Gunshot	C:\Users\stb6897\Desktop\Classes\IGME320\Project3\igme-320-project3\IGME 320 Project 3\IGME 320 Project 3_WwiseProject\.cache\Mac\SFX\Gunshot_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\GameSounds\GunSounds\Gunshot\Gunshot		176464
+	1062225523	grunt	C:\Users\stb6897\Desktop\Classes\IGME320\Project3\igme-320-project3\IGME 320 Project 3\IGME 320 Project 3_WwiseProject\.cache\Mac\SFX\grunt_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\GameSounds\DresdenVoice\DresdenHit\grunt		99792
+

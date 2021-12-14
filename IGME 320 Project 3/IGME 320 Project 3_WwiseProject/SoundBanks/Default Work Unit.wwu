@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{54B214A6-CFA0-420A-9728-A652ADC15690}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{54B214A6-CFA0-420A-9728-A652ADC15690}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="MainMenuBank" ID="{B1B3ECA5-E213-46D5-B863-4EC34061FD1C}">
+					<ObjectInclusionList>
+						<ObjectRef Name="MainMenu" ID="{6BE973D4-B9F8-40A0-91C7-2A436769A844}" WorkUnitID="{32C779B0-C702-4DEA-951B-90677CD57A12}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="GameBank" ID="{5F189E87-413A-4F87-9A0A-D219A611B51D}">
+					<ObjectInclusionList>
+						<ObjectRef Name="DresdenStart" ID="{ABAF1C40-A85F-403C-A3C9-80F69ECF89FE}" WorkUnitID="{32C779B0-C702-4DEA-951B-90677CD57A12}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Combat" ID="{20559A49-573B-4268-A60A-BB9682BF8C97}" WorkUnitID="{32C779B0-C702-4DEA-951B-90677CD57A12}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="RevolverReload" ID="{F0E3616F-1697-4747-B4F3-0AA469DD2C5C}" WorkUnitID="{32C779B0-C702-4DEA-951B-90677CD57A12}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fuego" ID="{246E9A04-7C15-48C6-B887-342E991A2837}" WorkUnitID="{32C779B0-C702-4DEA-951B-90677CD57A12}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="AmmoPickup" ID="{64A85736-A0E2-49CA-8EB7-DBBCD1C555A9}" WorkUnitID="{32C779B0-C702-4DEA-951B-90677CD57A12}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Gunshot" ID="{843F9D72-37A2-49EC-9CC9-CFD5B1C1580A}" WorkUnitID="{32C779B0-C702-4DEA-951B-90677CD57A12}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DresdenHit" ID="{6667E910-8076-4AEE-9C94-C72BFA2ACBCF}" WorkUnitID="{32C779B0-C702-4DEA-951B-90677CD57A12}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fireball" ID="{948D14FF-97FF-4D6D-BBDF-4A201701AD2B}" WorkUnitID="{32C779B0-C702-4DEA-951B-90677CD57A12}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Win" ID="{7495116A-6F40-420C-819F-96C616CEC6EA}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Win" ID="{3AD89B6C-0E8F-4681-B280-F59D57A8B769}" WorkUnitID="{32C779B0-C702-4DEA-951B-90677CD57A12}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DresdenWin" ID="{082B6DAB-F8E1-47A8-B4F2-ED7B8E0FA46B}" WorkUnitID="{32C779B0-C702-4DEA-951B-90677CD57A12}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Lose" ID="{3D5594E1-B5E0-4149-A46D-83E104D49E96}">
+					<ObjectInclusionList>
+						<ObjectRef Name="DresdenDeath" ID="{25B406FD-C596-4B5D-8839-D768AC03EC15}" WorkUnitID="{32C779B0-C702-4DEA-951B-90677CD57A12}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Lose" ID="{53AE3E7C-D7A2-4EBC-B5E7-D58FFC5676A9}" WorkUnitID="{32C779B0-C702-4DEA-951B-90677CD57A12}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

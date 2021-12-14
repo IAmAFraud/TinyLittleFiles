@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	221232726	Lose			\Default Work Unit\Game\Lose	
+	3052813266	DresdenDeath			\Default Work Unit\Game\Dresden\DresdenDeath	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	619817101	Lose_Music	C:\Users\stb6897\Desktop\Classes\IGME320\Project3\igme-320-project3\IGME 320 Project 3\IGME 320 Project 3_WwiseProject\.cache\Mac\SFX\Lose_Music_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\GameSounds\LoseGameContainer\LoseGameSegment\Lose_Music		3386944
+	942751586	ahhhhhh	C:\Users\stb6897\Desktop\Classes\IGME320\Project3\igme-320-project3\IGME 320 Project 3\IGME 320 Project 3_WwiseProject\.cache\Mac\SFX\ahhhhhh_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\GameSounds\DresdenVoice\DresdenDeath\ahhhhhh		243144
+
