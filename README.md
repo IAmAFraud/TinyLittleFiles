@@ -1,8 +1,2 @@
-# Sample GitLab Project
-
-This sample project shows how a project in GitLab looks for demonstration purposes. It contains issues, merge requests and Markdown files in many branches,
-named and filled with lorem ipsum.
-
-You can look around to get an idea how to structure your project and, when done, you can safely delete this project.
-
-[Learn more about creating GitLab projects.](https://docs.gitlab.com/ee/gitlab-basics/create-project.html)
+# Tiny Little Files
+This is a game that was developed with a team of 5 during a class in my junior year. In this game, you play as Harry Dresden from the 'Dresden Files' series of books. This game is a bullet-hell, where the player has to use a combination of their trusty staff and handy revolver to defeat all of the enemys that are out to get him. With a miniboss and a final boss, this game has plenty of challenge to it.
